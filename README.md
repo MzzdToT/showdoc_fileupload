@@ -5,13 +5,17 @@ ShowDoc 存在任意文件上传漏洞,攻击者可直接上传木马获取服�
 
 ## 漏洞影响
 
-ShowDoc < V2.8.3
+狮子鱼cms
+
+## FOFA指纹
+
+"/seller.php?s=/Public/login"
 
 ## 工具利用
 
-python3 showdoc_fileupload_exp.py -u http://127.0.0.1:1111 单个url测试
+python3 shiziyu_upload.py -u http://127.0.0.1:1111 单个url测试
 
-python3 showdoc_fileupload_exp.py -f url.txt 批量getshell
+python3 shiziyu_upload.py -f url.txt 批量getshell
 ![exp](./exp.png)
 
 ## 免责声明
